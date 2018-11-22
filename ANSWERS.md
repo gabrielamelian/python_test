@@ -31,4 +31,10 @@ def update_list(new_value, current_list=None):
 
 7. What does a “with” statement do in Python?
 
-8. Explain one common use of a one way hash algorithm.
+8. Explain one common use of a one way hash algorithm
+
+The advantage of a one way hash funtion is that it allows to create a hash code
+(fixed string of digits) easily which would be hard to revert by any means. By
+revert I mean convert back into the original message using the hash. This makes
+it very useful for use in authentication as it is a safer way to create digital
+signatures.
